@@ -17,6 +17,9 @@ var _ = {};
 */
 _.identity = function(value){
 //CODE BELOW HERE
+// returning value unchanged 
+
+return value;
 
 
 
@@ -47,12 +50,18 @@ _.identity = function(value){
 _.typeOf = function (value){
 //CODE BELOW HERE
 
+if(value === 'null'){
+   retrun 'null'
+}else if(){
 
+}else{
+
+}
 
 
 //CODE ABOVE HERE
 }
-
+console.log(typeof null)
 /** _.first
 * Arguments:
 *   1) An array
